@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Product</title>
+    <style type="text/css">
+        .ppp{border:1px solid green;width:500px;height:300px;padding-left:10px;padding-top:10px;}
+    </style>
+</head>
+<body>
+<div class="ppp">
+<p th:text="'Id:' + ${id}" />
+<p th:text="'Name:' + ${name}" />
+<p th:text="'Price:' + ${price}" />
+<p th:text="'Size:' + ${size}" />
+</div>
+</body>
+</html>
+
